@@ -3,11 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>homepage</title>
+    <title>openhtml</title>
 </head>
 <body>
-    <header>
-        
-    </header>
-</body>
-</html>
+<header>
+</header>
