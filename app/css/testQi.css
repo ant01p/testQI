@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    margin: 0;
+    color: white;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    margin:10px;
+}
+.butonstarttest {
+      display: flex;
+    
+    color: green;
+    text-align: left;
+    
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+main{
+    padding:50px;
+
+
+}
