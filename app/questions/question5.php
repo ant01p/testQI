@@ -23,31 +23,31 @@ require ("../shared/CloseHtml.php");
 <h2>Question 5</h2>
 <p>Quels sont les nombres qui n'ont pas de racine carrée entière?</p>
 
-<form method="post" action="question5.php">
+<form method="post" action="../result/result.php">
 
     <div>
-    <input type="checkbox" id="1" name="answer" checked />
-    <label for="1">1</label>
+    <input type="checkbox" value="1" name="answer1" />
+    <label for="answer1">1</label>
   </div>
   <div>
-    <input type="checkbox" id="9" name="answer" />
-    <label for="9">9</label>
+    <input type="checkbox" value="9" name="answer2" />
+    <label for="answer2">9</label>
   </div>
   <div>
-    <input type="checkbox" id="18" name="answer" checked />
-    <label for="18">18</label>
+    <input type="checkbox" value="18" name="answer3" />
+    <label for="answer3">18</label>
   </div>
   <div>
-    <input type="checkbox" id="49" name="answer" />
-    <label for="49">49</label>
+    <input type="checkbox" value="49" name="answer4" />
+    <label for="answer4">49</label>
   </div>
   <div>
-    <input type="checkbox" id="116" name="answer" />
-    <label for="116">116</label>
+    <input type="checkbox" value="116" name="answer5" />
+    <label for="answer5">116</label>
   </div>
   <div>
-    <input type="checkbox" id="1000" name="answer" />
-    <label for="1000">1000</label>
+    <input type="checkbox" value="1000" name="answer6" />
+    <label for="answer6">1000</label>
   </div>
   <p>
     <input type="submit" value="Valider" />
