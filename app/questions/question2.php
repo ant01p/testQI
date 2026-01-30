@@ -36,6 +36,7 @@ if (!empty($_POST)) {
 
 $title = 'Question 2';
 require ("../shared/OpenHtml.php");
+var_dump($_SESSION);
 ?>
 
 <main>

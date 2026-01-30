@@ -1,9 +1,6 @@
 <?php
 // ouvrir une session pour crée $_SESSION (toujours zu tout début du code)
 session_start();
-
-?>
-<?php
 // On verifie que le formulaire de question 1 a bien été soumis
 if(!empty($_POST)) {
     // Récupére la réponse donnée dans le formulaire
@@ -20,14 +17,15 @@ if(!empty($_POST)) {
  $title = 'Question 3';
 require ("../shared/OpenHtml.php");
 
-
 ?>
        
 <main class="container_Q3">
+
     <div class="bloc_image">
         <h2> Question 3</h2>
         <img src="../images/dice.jpg" alt="image de cube">
     </div>
+
     <div class="reponses">
         <p>A quoi ressemblera le cube fini?</p>   
          <form action="question4.php" method="post">
